@@ -20,30 +20,29 @@ the easiest way to get started with next is to use a command called create next 
 npx create-next-app <name>
 ```
 
-
 ---
 
 `pages folder` this is where all of our different page components are going to be created the idea being that every page in next has its own components its own react components now at the minute the only page component we have is this index component and this is going to be for the home page and we see we have all of this content
 
 index = homepage
-_app = root
-
+\_app = root
 
 `public folder` this is where all of our public assets like images go
 
-`styles folder` for different css files including css modules 
+`styles folder` for different css files including css modules
 
 ---
 
 ## Important Commands
 
-``` bash
+```bash
 next dev
 
 next build
 
 next start
 ```
+
 ---
 
 components are pre-rendered before it even reaches the browser during development this is done via server-side rendering so the server renders the component then sends the html file to the browser and that happens on each page request from the browser so if i type in a different url it will look for the component for that url pre-render it and send it to the browser
@@ -58,10 +57,6 @@ the job of next is to build static pages and js bundles based on our components 
 
 the easiest way to deploy a next application is by using the cell this thing right here which is a hosting platform made by the same people who made next js and it allows us to easily sync our deployment with github so that the cell automatically redeploys our websites whenever we merge a new branch into the main one and this makes itreally easy to update your website andhave it automatically deployed each time you do so so i'm going to show you how to set up
 
-- sign uo wth github
+- sign up wth github
 - link your repo
 - deploy
-
-
-
-
